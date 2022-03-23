@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+.center {
+  width: 40%;
+  margin: 10vh auto;
+
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  border: 3px solid teal;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+input{
+  outline: none;
+  width: 100%;
+  border: 1px solid teal;
+  padding: 5px;
+}
+
+button{
+  color: teal;
+  border: 1px solid teal;
+  outline: none;
+  margin-top: 3vh;
+  align-self: flex-end;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover{
+  background-color: teal;
+  color: white
+}
+
+.message {
+  border: 2px solid teal;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.connection{
+  margin: 5px 0;
+  text-align: center;
+}
